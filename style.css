@@ -1,0 +1,110 @@
+/* style.css */
+
+/* General Reset and Base Styles */
+* {
+    margin: 0;  /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures padding and border are included in element width and height */
+    font-family: Arial, sans-serif; /* Sets default font for all text */
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+    color: #333; /* Dark grey text color for readability */
+    line-height: 1.6; /* Improves readability by increasing line spacing */
+    padding: 20px; /* Adds space around the content */
+  }
+  
+  /* Header Styling */
+  header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text in header */
+    padding: 20px 0; /* Vertical padding inside header */
+    text-align: center; /* Centers the header text */
+  }
+  
+  /* Navigation Menu Styling */
+  nav ul {
+    list-style: none; /* Removes default bullet points */
+    display: flex; /* Displays list items in a row */
+    justify-content: center; /* Centers the navigation items */
+    gap: 20px; /* Adds space between navigation items */
+  }
+  
+  nav a {
+    color: white; /* White text for navigation links */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Adds underline when hovering over links */
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    text-align: center; /* Centers the text and images */
+    padding: 50px 20px; /* Adds spacing around hero section */
+    background-color: #e2e2e2; /* Light background for hero section */
+  }
+  
+  .hero img {
+    max-width: 150px; /* Limits width of hero image */
+    border-radius: 50%; /* Makes the image circular */
+  }
+  
+  /* Button Styling */
+  .button {
+    display: inline-block; /* Makes the button fit the content */
+    padding: 10px 20px; /* Adds padding inside the button */
+    margin-top: 20px; /* Adds space above the button */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from link */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .button:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px; /* Adds space above the footer */
+    text-align: center; /* Centers footer text */
+    padding: 20px; /* Adds padding inside the footer */
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+  }
+  
+  /* Image Styling */
+  img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  /* Page Content Styling */
+  .container {
+    max-width: 800px; /* Limits width of content */
+    margin: auto; /* Centers the container */
+    padding: 20px; /* Adds padding inside the container */
+  }
+  
+  /* Ingredients and Steps List Styling */
+  ul, ol {
+    margin: 20px 0; /* Adds space above and below lists */
+    padding-left: 20px; /* Indents the lists */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column; /* Stacks nav items vertically on small screens */
+      gap: 10px; /* Reduces gap between nav items */
+    }
+  
+    .hero img {
+      max-width: 100px; /* Smaller hero image on small screens */
+    }
+  }
+  
